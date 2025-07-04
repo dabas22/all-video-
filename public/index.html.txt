@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multi Video Downloader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Multi Video Downloader</h1>
+    <p class="users">? Trusted by over 1 million users worldwide</p>
+
+    <input type="text" id="urlInput" placeholder="Paste your video link here..." />
+    <button onclick="download()">Download Video</button>
+
+    <p class="description">
+      ?? Supports YouTube, Instagram, Twitter, and TikTok.<br/>
+      ?? This tool is intended for educational purposes only.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

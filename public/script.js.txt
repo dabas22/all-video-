@@ -1,0 +1,9 @@
+function download() {
+  const url = document.getElementById("urlInput").value.trim();
+  if (!url) {
+    alert("Please paste a valid video link.");
+    return;
+  }
+
+  window.location.href = `/download?url=${encodeURIComponent(url)}`;
+}
